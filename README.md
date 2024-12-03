@@ -11,8 +11,6 @@ It's actually *tavşan* (pronounced as tavshan), and means rabbit in Turkish.
 
 Include it by adding `mamluk/tavhan` to your `composer.json` file.
 
-## Use it
-
 ```php
 use Mamluk\Tavhan\Queue
 use Monolog\Logger;
