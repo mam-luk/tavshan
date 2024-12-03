@@ -1,7 +1,7 @@
 {
   "name": "mamluk/tavshan",
   "type": "library",
-  "description": "A simplified Rabbit MQ library written on top of the PHP AMQP Library ",
+  "description": "A simplified Rabbit MQ library written on top of the PHP AMQP Library",
   "keywords": [
     "Rabbit MQ",
     "Queues"
