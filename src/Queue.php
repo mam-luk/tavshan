@@ -83,7 +83,7 @@ class Queue
         $this->channel->set_ack_handler(function (AMQPMessage $message) use ($exchange) {
             // Do nothing, message ack'd
             $this->log->debug('Message ACK\'d',['message' => $message->getBody()]);
-            $this->channel->basic_publish($message, $exchange, $this->queue);
+            // $this->channel->basic_publish($message, $exchange, $this->queue);
         });
 
         $this->channel->set_nack_handler(function (AMQPMessage $message) use ($exchange) {
