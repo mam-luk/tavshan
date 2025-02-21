@@ -9,10 +9,10 @@ It's actually *tavşan* (pronounced as tavshan), and means rabbit in Turkish.
 
 ## How to use it?
 
-Include it by adding `mamluk/tavhan` to your `composer.json` file.
+Include it by adding `mamluk/tavshan` to your `composer.json` file.
 
 ```php
-use Mamluk\Tavhan\Queue
+use Mamluk\Tavshan\Queue
 use Monolog\Logger;
 use Psr\Log\LogLevel;
 
